@@ -347,7 +347,7 @@ void letra_z(){
 	scanf("%d", &a);
 	printf("Defina o valor de B:\n");
 	scanf("%d", &b);
-	printf("O valor do quadrado da divisao de a em realacao a b e: %0.f", pow(a/b,2));
+	printf("O valor do quadrado da divisao de a em realacao a b e: %2.f", pow(a/b,2));
 }
 
 int main(){
